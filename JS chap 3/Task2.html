@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // task 2.
+
+ // Check if the visitor count is already stored in localStorage
+ let visitCount = localStorage.getItem('visitCount');
+
+// If not, set the count to 0
+if (visitCount === null) {
+    visitCount = 0;
+}
+
+// Increment the count for each visit
+visitCount++;
+localStorage.setItem('visitCount', visitCount);
+
+// Display the number of visits on the webpage
+document.write("You have visited this site " + visitCount + " times");
+</script>
+ 
+</body>
+</html>

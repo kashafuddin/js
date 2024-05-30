@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Task 7.
+
+// Store the prices of items and ordered quantities in variables
+var priceItem1 = 25; // Price of item 1
+var priceItem2 = 30; // Price of item 2
+var quantityItem1 = 2; // Ordered quantity of item 1
+var quantityItem2 = 1; // Ordered quantity of item 2
+var shippingCharges = 5; // Shipping charges
+
+// Calculate the total cost of each item
+var totalCostItem1 = priceItem1 * quantityItem1;
+var totalCostItem2 = priceItem2 * quantityItem2;
+
+// Calculate the total cost of all items
+var totalCost = totalCostItem1 + totalCostItem2;
+
+// Add shipping charges to the total cost
+var totalCostWithShipping = totalCost + shippingCharges;
+
+// Output the results
+console.log("Price of Item 1: $" + priceItem1);
+console.log("Price of Item 2: $" + priceItem2);
+console.log("Quantity of Item 1: " + quantityItem1);
+console.log("Quantity of Item 2: " + quantityItem2);
+console.log("Shipping Charges: $" + shippingCharges);
+console.log("Total cost of Item 1: $" + totalCostItem1);
+console.log("Total cost of Item 2: $" + totalCostItem2);
+console.log("Total cost of all items: $" + totalCost);
+console.log("Total cost including shipping: $" + totalCostWithShipping)
+    </script>
+</body>
+</html>
